@@ -2,7 +2,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(88, 63, 16);
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
+
 /* Navigasi bar */
 .navbar {
   display: flex;
