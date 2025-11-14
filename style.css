@@ -10,6 +10,7 @@ body {
 }
 
 /* Navigasi bar */
+
 .navbar {
   display: flex;
   padding: 10px;
@@ -78,15 +79,6 @@ header p {
   font-size: 30px;
 }
 
-/*footer*/
-footer {
-  border-top: 1px solid black;
-}
-footer p {
-  font-size: 20px;
-  text-align: end;
-}
-
 /* About */
 
 .navbar-about {
@@ -146,4 +138,23 @@ video {
 
 .article-about p {
   font-size: 30px;
+}
+
+/*footer*/
+.logo {
+  font-size: 45px;
+  display: flex;
+  gap: 10px;
+}
+.logo a {
+  color: white;
+}
+footer {
+  border-top: 1px solid black;
+}
+footer p {
+  margin-top: 0;
+  margin-right: 10px;
+  font-size: 20px;
+  text-align: end;
 }
