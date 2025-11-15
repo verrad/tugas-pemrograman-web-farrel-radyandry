@@ -3,17 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
     <link rel="stylesheet" href="style.css" />
+    <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <!-- logo -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
     <title>About Me</title>
   </head>
@@ -33,7 +38,7 @@
       <li><a href="about.html" class="navbar-box-about">About me</a></li>
     </nav>
     <!-- main -->
-    <main class="main-container about">
+    <main class="main-container about" data-aos="fade-down">
       <div class="wrapper">
         <article class="article-about">
           <p>Hi my name is <b>Farrel Radyandry</b>, I am a <b>Coder</b>.</p>
@@ -49,7 +54,7 @@
             I said that earlier that i can't compete no more, so i try to find
             something to do to fill my time not just outdoor but also indoor. so
             i try to learn something like, economy, math, and also <b>code</b>.
-            i found it interesting in code, <b>HTML, CSS, Javascript</b> is the
+            I found it interesting in code, <b>HTML, CSS, Javascript</b> is the
             main formula for the beginner to code. So i tried it out and i like
             it, not because i just like code but also because this field is have
             a future road map to <b>strive</b> for.
@@ -58,6 +63,38 @@
         <video autoplay muted loop width="350px">
           <source src="video/video-alen-main-basket.mp4" type="video/mp4" />
         </video>
+      </div>
+      <!-- three type of me -->
+      <div>
+        <h1>There are three type of me</h1>
+      </div>
+
+      <div class="stylish" data-aos="fade-left">
+        <div class="wrapper-stylish">
+          <h2>Type of me that stylish</h2>
+          <p class="stylish-p">This is the type of me that i wear outfit.</p>
+        </div>
+        <img src="image\foto-alen-begaya.jpg" alt="" />
+      </div>
+
+      <div class="socialize" data-aos="fade-right">
+        <div class="wrapper-socialize">
+          <h2>Type of me that socialize</h2>
+          <p class="socialize-p">
+            This is the type of me that i like to meet people.
+          </p>
+        </div>
+        <img src="image\alen-punya--temen.jpg" alt="" />
+      </div>
+
+      <div class="professional" data-aos="fade-left">
+        <div class="wrapper-professional">
+          <h2>Type of me that professional</h2>
+          <p class="professional-p">
+            This is the type of me that i'm locked in.
+          </p>
+        </div>
+        <img src="image\alen-podcast.jpg" alt="" />
       </div>
     </main>
 
@@ -76,5 +113,10 @@
       </div>
       <p>Copyright &copy; 2025 Farrel.</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

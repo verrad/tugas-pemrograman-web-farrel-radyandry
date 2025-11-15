@@ -7,14 +7,20 @@ body {
   font-weight: weight;
   font-style: normal;
   color: white;
+  padding-top: 60px;
 }
 
 /* Navigasi bar */
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgb(145, 109, 42);
   display: flex;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 30px;
   gap: 10px;
   font-size: 30px;
   list-style-type: none;
@@ -51,6 +57,7 @@ header {
   background-image: url("image/vince-van-gogh.jpeg");
   background-size: cover;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+  margin-top: 39px;
 }
 .foto-alen {
   width: 300px;
@@ -82,9 +89,14 @@ header p {
 /* About */
 
 .navbar-about {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgb(145, 109, 42);
   display: flex;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 30px;
   gap: 10px;
   font-size: 30px;
   list-style-type: none;
@@ -114,6 +126,7 @@ header p {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 /* article */
@@ -140,21 +153,100 @@ video {
   font-size: 30px;
 }
 
+/* about main idea */
+/* stylish */
+.stylish {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 10px;
+  background-color: rgb(58, 42, 42);
+  width: 1000px;
+  margin-right: 500px;
+}
+
+.wrapper-stylish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.stylish img {
+  width: 400px;
+}
+/* socialize */
+
+.socialize {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  background-color: rgb(58, 42, 42);
+  width: 1000px;
+  margin-left: 500px;
+}
+.wrapper-socialize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  margin: 0;
+}
+.socialize img {
+  width: 400px;
+}
+
+/* professional */
+.professional {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  background-color: rgb(58, 42, 42);
+  width: 1000px;
+  margin-right: 500px;
+  margin-bottom: 50px;
+}
+.wrapper-professional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.professional img {
+  width: 400px;
+}
 /*footer*/
 .logo {
   font-size: 45px;
   display: flex;
   gap: 10px;
+  margin: 10px;
 }
 .logo a {
   color: white;
 }
 footer {
   border-top: 1px solid black;
+  background-color: rgb(26, 24, 24);
+  margin-bottom: 0px;
+  height: 150px;
 }
 footer p {
   margin-top: 0;
   margin-right: 10px;
   font-size: 20px;
   text-align: end;
+  margin-bottom: 0;
 }
